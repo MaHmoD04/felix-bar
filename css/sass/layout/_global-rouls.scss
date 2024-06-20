@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+}
+a,
+img {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  object-fit: cover !important;
+}
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

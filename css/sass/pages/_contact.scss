@@ -1,0 +1,57 @@
+@use "../layout/variables" as *;
+
+.contact-header {
+  border-bottom-color: $mainColorText;
+  .logo {
+    a {
+      color: $mainColorText;
+    }
+  }
+  a {
+    color: $mainColorText;
+    @media (max-width: 991px) {
+      color: $whiteColor;
+    }
+  }
+  .bar {
+    svg {
+      color: $mainColorText;
+    }
+  }
+}
+
+.details-contact {
+  padding: 70px 0;
+  .info {
+    h1 {
+      font-size: 65px;
+      margin-bottom: 30px;
+    }
+    .details {
+      gap: 30px;
+      flex-wrap: wrap;
+      .box {
+        flex-basis: 40%;
+        @media (max-width: 991px) {
+          flex-basis: 100%;
+        }
+        h3 {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    h1,
+    p,
+    h3 {
+      color: $mainColorText;
+    }
+  }
+  img {
+    border: 2px solid rgb(89, 89, 89, 0.2);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+  }
+}
